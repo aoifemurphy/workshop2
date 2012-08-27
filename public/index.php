@@ -1,4 +1,4 @@
-<?php 
+ ,<?php 
 $search_term = (isset($_POST['search-term']))? $_POST['search-term'] : 'socialmedia';
 ?>
 <!doctype html>
@@ -15,7 +15,7 @@ $search_term = (isset($_POST['search-term']))? $_POST['search-term'] : 'socialme
 <link rel="stylesheet" href="/css/style.css">
 
 </head>
-<body>Hello Aoife
+<body>Hello<b> Aoife</b>
 <div id="frame">
   <div class="title">Hi User</div>
   <form action="/" method="post">
